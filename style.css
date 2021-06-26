@@ -1,0 +1,74 @@
+@import url(https://fonts.google.com/specimen/Raleway);
+body {
+    text-align: center;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Raleway;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.head-text {
+    margin-top: 50px;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #e1ff00, 0 0 82px #e1ff00, 0 0 92px #ffff00, 0 0 102px #fff200, 0 0 151px rgb(255, 191, 0);
+    font-size: 300%;
+}
+
+#overlay1 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#startext {
+    font-family: inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 5vh;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#entertext {
+    color: orange;
+}
+
+.hat {
+    width: 15%;
+    margin-top: 17%;
+    margin-left: -9%;
+    position: absolute;
+    animation: hatanimate 4s ease-in-out infinite;
+}
+
+@keyframes hatanimate {
+    from {
+        transform: translateY(5%);
+    }
+    to {
+        transform: translateY(-5%);
+    }
+}
+
+.grid-box {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.btn {
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+    <title>SlidingPuzzleGame</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./jquery.js"></script>
+</head>
+
+<body onload="startoverlay()">
+    <div id="overlay1" onclick="endoverlay()">
+        <div id="startext">Hmm, difficult. VERY difficult. Plenty of courage, I see. Not a bad mind, either. There's talent, oh yes. And a thirst to prove yourself. But where to put you?</br>
+            <div id="entertext">Enter To Find Out!!</div>
+        </div>
+        <audio id="bg" controls="none" preload="auto" style="display:none">
+            <source src="harry.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div class="head-text">Choose Your Board Wisely :)</div>
+    <img src="hat.png" class="hat">
+    <div class="grid-box">
+        <a href="3x3puzzle.html"><img src="huf.png" class="btn" width="250px"></a>
+        <a href="4x4puzzle.html"><img src="rav.png" class="btn" width="250px"></a>
+        <a href="5x5puzzle.html"><img src="sly.png" class="btn" width="300px" height="330px"></a>
+        <a href="4x3puzzle.html"><img src="gry.png" class="btn" width="250px"></a>
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>

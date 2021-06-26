@@ -1,0 +1,95 @@
+@import url(https://fonts.google.com/specimen/Raleway);
+body {
+    text-align: center;
+    background-image: url(bg.jpg);
+    font-family: Raleway;
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position: center;
+}
+
+.head-text {
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #00ccff, 0 0 82px #00ccff, 0 0 92px #00aaff, 0 0 102px #0062ff, 0 0 151px #0fa;
+    font-size: 5vh;
+}
+
+.puzzle-box {
+    background-color: rgba(255, 255, 255, 0.472);
+    box-shadow: 0 0 7px #fff, 0 0 10px #eaff00, 0 0 42px #0fa;
+    text-align: center;
+    position: relative;
+    margin: 0px auto;
+}
+
+.tile {
+    color: white;
+    background: #1ac4aa;
+    position: absolute;
+    cursor: pointer;
+}
+
+.shufflebtn {
+    margin-top: 15px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 3.5vh;
+    font-family: inherit;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.movesbox {
+    color: white;
+    display: inline-block;
+    background-color: rgba(255, 166, 0, 0.854);
+    font-size: 3.5vh;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#move {
+    display: inline-block;
+}
+
+.moves-text {
+    display: inline-block;
+}
+
+#timer {
+    display: inline-block;
+    color: white;
+    display: inline-block;
+    background-color: rgba(255, 166, 0, 0.854);
+    font-size: 2vh;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.shufflebtn:hover {
+    background-color: yellowgreen;
+}
+
+.bottom-text {
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 30px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icon:hover {
+    box-shadow: 0 0 5px white;
+}
