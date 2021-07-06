@@ -170,7 +170,7 @@ function checkWin() {
     if (k == noCols * noRows) {
         mySound.play();
         alert("Congratulations! You solved the puzzle in " + noMoves + " moves " + "\nGreat! Loyalty, and Patience, You are put into HUFFLEPUFF!!");
-        noMoves = 0;
+        noMoves = 0 ;
     };
 }
 
