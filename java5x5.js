@@ -165,6 +165,7 @@ function checkWin(tile) {
     if (k == noCols * noRows) {
         mySound.play();
         alert("Congratulations! You solved the puzzle in " + noMoves + " moves " + "\nAah! I hear ambition, You are put into SLYTHERINE!!");
+        noMoves = 0;
     };
 }
 
