@@ -174,6 +174,7 @@ function checkWin() {
     if (k == noCols * noRows) {
         mySound.play();
         alert("Congratulations! You solved the puzzle in " + noMoves + " moves " + "\nOh Yes! You are clever and wise, You are put into RAVENCLAW!!");
+        noMoves = 0;
     };
 }
 
