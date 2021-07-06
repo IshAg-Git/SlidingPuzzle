@@ -172,7 +172,7 @@ function checkWin() {
     if (k == noCols * noRows) {
         mySound.play();
         alert("Congratulations! You solved the puzzle in " + noMoves + " moves " + "\nHmm! Here I sense the Courage and Chivalry , You are put into GRYFFINDOR!!");
-        noMoves = 0;
+        noMoves = 0 ;
     };
 }
 
